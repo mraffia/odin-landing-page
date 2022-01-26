@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    padding: 16px 48px;
+    padding: 16px 32px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -42,9 +42,11 @@ body {
 
 #hero {
     display: flex;
-    padding: 48px;
     background-color: #1F2937;
     justify-content: center;
+    height: 400px;
+    align-items: center;
+    padding: 32px;
 }
 
 .hero-text {
@@ -77,8 +79,12 @@ body {
 }
 
 #about {
-    padding: 48px;
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    padding: 32px;
 }
 
 #about .header {
@@ -91,7 +97,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 52px;
+    gap: 48px;
 }
 
 .about-info .info {
@@ -103,3 +109,29 @@ body {
     height: 150px;
     border-radius: 4px;
 }
+
+#testimonies {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    background-color: #E5E7EB;
+    gap: 32px;
+}
+
+#testimonies .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 800px;
+}
+
+#testimonies .text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+

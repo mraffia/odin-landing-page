@@ -6,8 +6,15 @@ body {
 }
 
 .navbar {
-    padding: 16px 32px;
+    padding: 16px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .subcontainer {
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +56,15 @@ body {
     padding: 32px;
 }
 
+#hero .subcontainer {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero-text {
-    padding: 32px;
-    width: 600px;
+    max-width: 500px;
 }
 
 .hero-text .header {

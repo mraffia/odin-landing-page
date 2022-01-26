@@ -54,7 +54,7 @@ body {
 
 .hero-text .header {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 16px;
 }
@@ -67,12 +67,39 @@ body {
     background-color: #3882F6;
     padding: 8px 16px;
     color: #F9FAF8;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #hero img {
     width: 400px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
+#about {
+    padding: 48px;
+    text-align: center;
+}
+
+#about .header {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.about-info .info {
+    max-width: 200px;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}

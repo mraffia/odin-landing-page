@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    padding: 16px 32px;
+    padding: 16px 48px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -24,11 +24,55 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 32px
+    gap: 48px
 }
 
-.navbar a {
+.navbar a,
+.hero-text .text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    display: flex;
+    padding: 48px;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.hero-text {
+    padding: 32px;
+    width: 600px;
+}
+
+.hero-text .header {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.hero-text .text {
+    margin-bottom: 16px;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    padding: 8px 16px;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+#hero img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+

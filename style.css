@@ -65,11 +65,14 @@ body {
     margin-bottom: 16px;
 }
 
-.hero-text button {
+.hero-text button,
+.modal button {
     background-color: #3882F6;
     padding: 8px 16px;
     color: #F9FAF8;
     border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #hero img {
@@ -108,6 +111,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 4px;
+    margin-bottom: 16px;
 }
 
 #testimonies {
@@ -130,8 +134,50 @@ body {
 }
 
 #testimonies .text {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: #1F2937;
 }
 
+#joinus {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#joinus .modal {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 0 48px;
+}
+
+.modal .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.modal .text {
+    color: #E5E7EB;
+}
+
+.modal button {
+    border-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}

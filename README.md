@@ -6,3 +6,6 @@ A basic landing page
 
 ### Demonstrated Skills
 HTML and CSS (Flexbox)
+
+### Project Website
+https://mraffia.github.io/odin-landing-page/
